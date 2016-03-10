@@ -36,7 +36,6 @@
 -(void)requestMeds:(Patient *)patient {
     
     if ([self.acceptedPatients containsObject:patient]) {
-        NSLog(@"what are your symptoms?");
        }
 }
 

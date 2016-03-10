@@ -20,6 +20,8 @@ int main(int argc, const char * argv[]) {
         Doctor *doctor1 = [[Doctor alloc]initWithName:@"Dr.Who" andSpecialization:@"chiropodist"];
         Doctor *doctor2 = [[Doctor alloc]initWithName:@"Dr.Feelgood" andSpecialization:@"addictions"];
         
+        patient1.symptoms = @"hypertension";
+        patient2.symptoms = @"tape worm";
         
         
         
