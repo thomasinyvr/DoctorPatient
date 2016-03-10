@@ -10,21 +10,22 @@
 
 @implementation Patient
 
--(instancetype)initWithAge:(int)age Name:(NSString *)name HealthCard:(BOOL)hasHealthCard Symptoms:(NSString *)symptoms andMedsTaken:(NSString *)medsTaken{
-    
-    _name = self.name;
-    _age = self.age;
-    _hasHealthCard = self.hasHealthCard;
-    _symptoms = self.symptoms;
-    _medsTaken = self.medsTaken;
-    
+- (instancetype)initWithAge:(int)age Name:(NSString *)name HealthCard:(BOOL)hasHealthCard Symptoms:(NSString *)symptoms andMedsTaken:(NSMutableArray *)medsTaken {
+{
+    self = [super init];
+    if (self) {
+        _name = self.name;
+        _age = self.age;
+        _hasHealthCard = self.hasHealthCard;
+        _symptoms = self.symptoms;
+        _medsTaken = self.medsTaken;
+
+    }
     return self;
-    
+  }
+
 }
 
--(void)visitDoctor:(Doctor *)doctor {
-    
-}
 
 
 

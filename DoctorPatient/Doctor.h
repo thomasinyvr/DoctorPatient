@@ -8,17 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import "Patient.h"
-
+#import "Treatments.h"
 @interface Doctor : NSObject
 
 @property (nonatomic) NSString *name;
 @property (nonatomic) NSString *specialization;
 @property (nonatomic) NSMutableSet *acceptedPatients;
+@property (nonatomic) Treatments *treatment;
 
 -(instancetype)initWithName:(NSString *)name andSpecialization:(NSString *)specialization;
 
--(BOOL)acceptPatient:patient;
+-(BOOL)acceptPatient:(Patient*)patient;
 
--(void)requestMeds:patient;
+-(void)requestMeds:(Patient*)patient;
+
+-(void)treatPatient:(Patient*)patient;
 
 @end

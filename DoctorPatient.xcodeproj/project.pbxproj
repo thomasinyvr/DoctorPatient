@@ -10,6 +10,8 @@
 		FCEDC68E1C9201FD006ED814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEDC68D1C9201FD006ED814 /* main.m */; };
 		FCEDC6961C920213006ED814 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEDC6951C920213006ED814 /* Doctor.m */; };
 		FCEDC6991C92021B006ED814 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEDC6981C92021B006ED814 /* Patient.m */; };
+		FCEDC69C1C921395006ED814 /* Treatments.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEDC69B1C921395006ED814 /* Treatments.m */; };
+		FCEDC69F1C922806006ED814 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEDC69E1C922806006ED814 /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		FCEDC6951C920213006ED814 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		FCEDC6971C92021B006ED814 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
 		FCEDC6981C92021B006ED814 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		FCEDC69A1C921395006ED814 /* Treatments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treatments.h; sourceTree = "<group>"; };
+		FCEDC69B1C921395006ED814 /* Treatments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Treatments.m; sourceTree = "<group>"; };
+		FCEDC69D1C922806006ED814 /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		FCEDC69E1C922806006ED814 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,10 @@
 				FCEDC68D1C9201FD006ED814 /* main.m */,
 				FCEDC6941C920213006ED814 /* Doctor.h */,
 				FCEDC6951C920213006ED814 /* Doctor.m */,
+				FCEDC69D1C922806006ED814 /* InputCollector.h */,
+				FCEDC69E1C922806006ED814 /* InputCollector.m */,
+				FCEDC69A1C921395006ED814 /* Treatments.h */,
+				FCEDC69B1C921395006ED814 /* Treatments.m */,
 				FCEDC6971C92021B006ED814 /* Patient.h */,
 				FCEDC6981C92021B006ED814 /* Patient.m */,
 			);
@@ -130,6 +140,8 @@
 			files = (
 				FCEDC6991C92021B006ED814 /* Patient.m in Sources */,
 				FCEDC6961C920213006ED814 /* Doctor.m in Sources */,
+				FCEDC69F1C922806006ED814 /* InputCollector.m in Sources */,
+				FCEDC69C1C921395006ED814 /* Treatments.m in Sources */,
 				FCEDC68E1C9201FD006ED814 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
